@@ -9,7 +9,7 @@ To install the modules and scripts in PyUtils, follow these steps:
 
 1. Clone the repository locally using Git:
    ```
-   git clone https://github.com/your-username/PyUtils.git
+   git clone https://github.com/alessio-bortolotti-heig/PyUtils.git
    ```
 2. Navigate to the project folder:
    ```
@@ -29,7 +29,7 @@ Once the installation is complete, you are ready to use the tools available in P
 
 ## Modules
 
-Below is a list of the modules/scripts included in PyUtils, with a brief description for each:
+Below is a list of the mini-modules and scripts included in PyUtils, with a brief description for each:
 
 ### Module_Name_1.py
 Description of Module 1: This module is designed to...
@@ -39,5 +39,3 @@ Description of Module 2: Provides functionality for...
 
 ### Module_Name_3.py
 Description of Module 3: Helps users to...
-
-(Continue with descriptions for each module/script you have in your repository.)
