@@ -19,11 +19,11 @@ To install the modules and scripts in PyUtils, follow these steps:
    ```
    python -m venv venv
    ```
-   3.1. Linux & macOS
+   Linux & macOS
    ```
    source venv/bin/activate
    ```
-   3.2. Windows
+   Windows
    ```
    `venv\Scripts\activate`
    ```
