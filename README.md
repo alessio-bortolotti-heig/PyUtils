@@ -18,7 +18,12 @@ To install the modules and scripts in PyUtils, follow these steps:
 3. (Optional) It is recommended to create a virtual environment to manage dependencies:
    ```
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+   # Linux & macOS
+   source venv/bin/activate
+   
+   # On Windows
+   `venv\Scripts\activate`
    ```
 4. Install the necessary dependencies:
    ```
