@@ -24,7 +24,7 @@ To install the modules and scripts in PyUtils, follow these steps:
    Windows
    ```
    python3 -m venv venv
-   `venv\Scripts\activate`
+   venv\Scripts\activate
    ```
 5. Install the necessary dependencies:
    ```
