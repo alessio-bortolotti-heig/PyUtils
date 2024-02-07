@@ -15,7 +15,7 @@ To install the modules and scripts in PyUtils, follow these steps:
    ```
    cd PyUtils
    ```
-3. (Optional) It is recommended to create a virtual environment to manage dependencies:
+3. (Optional) It is recommended to create a virtual environment to manage dependencies:\n
    Linux & macOS
    ```
    python3 -m venv venv
