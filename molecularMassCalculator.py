@@ -21,7 +21,7 @@ ELEMENT_TO_MASS = {
     'Nh': 284, 'Fl': 289, 'Mc': 288, 'Lv': 292, 'Ts': 295, 'Og': 294
 }
 
-# Function to get the atomic mass of an element
+
 def get_atomic_mass(element_symbol):
     """
     Retrieve the atomic mass of an element given its symbol.
@@ -31,7 +31,7 @@ def get_atomic_mass(element_symbol):
     """
     return ELEMENT_TO_MASS.get(element_symbol, None)
 
-# Function to split element symbol and multiplier
+
 def split_element_number(element_with_multiplier):
     """
     Splits an element symbol from its multiplier if present.
@@ -48,7 +48,7 @@ def split_element_number(element_with_multiplier):
     multiplier = int(multiplier) if multiplier else 1
     return element, multiplier
 
-# Function to calculate molecular mass
+
 def calculate_molecular_mass(molecular_formula):
     """
     Calculates the molecular mass of a compound given its formula.
@@ -64,7 +64,7 @@ def calculate_molecular_mass(molecular_formula):
             current_component = char
         elif char.islower() or char.isdigit():
             current_component += char
-    components.append(current_component)  # Add the last component
+    components.append(current_component)
     for component in components:
         element, multiplier = split_element_number(component)
         atomic_mass = get_atomic_mass(element)
@@ -72,9 +72,10 @@ def calculate_molecular_mass(molecular_formula):
             molecular_mass += atomic_mass * multiplier
     return molecular_mass
 
-
+"""
 # Example usage
 if __name__ == "__main__":
     example_molecule = "C16H18N2O4S"  # This represents Penicillin G
     calculated_molecular_mass = calculate_molecular_mass(example_molecule)
     print(f"The molar mass of {example_molecule} (Penicillin G) is: {calculated_molecular_mass}")
+"""
