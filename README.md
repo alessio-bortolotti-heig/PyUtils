@@ -48,3 +48,6 @@ This Python code defines a model for radioactive isotopes and a converter to cal
 
 ### UnitConverter.py
 This Python program defines a `UnitConverter` class to perform unit conversions across different measurement categories, including length, temperature, volume, mass, pressure, and speed. It offers methods for converting between commonly used units, such as meters to feet, Celsius to Fahrenheit, and liters to gallons.
+
+### toolkitRF.py
+This Python module offers a comprehensive set of tools for analyzing and designing radio frequency (RF) communication systems. It includes functions for calculating wavelength, path loss, antenna gains, link budgets, and more, aiding in the effective planning and optimization of wireless communication links.
