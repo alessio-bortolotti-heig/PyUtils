@@ -1,46 +1,55 @@
 class UnitConverter:
-    # Length Conversion
+    """A class for converting units of measurement."""
+
     def meters_to_feet(self, meters):
+        """Convert length from meters to feet."""
         return meters * 3.28084
 
     def feet_to_meters(self, feet):
+        """Convert length from feet to meters."""
         return feet / 3.28084
 
-    # Temperature Conversion
     def celsius_to_fahrenheit(self, celsius):
-        return (celsius * 9/5) + 32
+        """Convert temperature from Celsius to Fahrenheit."""
+        return (celsius * 9 / 5) + 32
 
     def fahrenheit_to_celsius(self, fahrenheit):
-        return (fahrenheit - 32) * 5/9
+        """Convert temperature from Fahrenheit to Celsius."""
+        return (fahrenheit - 32) * 5 / 9
 
-    # Volume Conversion
     def liters_to_gallons(self, liters):
+        """Convert volume from liters to gallons."""
         return liters * 0.264172
 
     def gallons_to_liters(self, gallons):
+        """Convert volume from gallons to liters."""
         return gallons / 0.264172
 
-    # Mass Conversion
     def kilograms_to_pounds(self, kilograms):
+        """Convert mass from kilograms to pounds."""
         return kilograms * 2.20462
 
     def pounds_to_kilograms(self, pounds):
+        """Convert mass from pounds to kilograms."""
         return pounds / 2.20462
 
-    # Pressure Conversion
     def pascals_to_psi(self, pascals):
+        """Convert pressure from pascals to psi."""
         return pascals * 0.000145038
 
     def psi_to_pascals(self, psi):
+        """Convert pressure from psi to pascals."""
         return psi / 0.000145038
 
-    # Speed Conversion
     def kmh_to_mph(self, kmh):
+        """Convert speed from kilometers per hour to miles per hour."""
         return kmh * 0.621371
 
     def mph_to_kmh(self, mph):
+        """Convert speed from miles per hour to kilometers per hour."""
         return mph / 0.621371
 
+"""
 # Usage examples
 if __name__ == "__main__":
     converter = UnitConverter()
@@ -56,3 +65,4 @@ if __name__ == "__main__":
     print("14.7 psi to pascals:", converter.psi_to_pascals(14.7))
     print("100 km/h to mph:", converter.kmh_to_mph(100))
     print("60 mph to km/h:", converter.mph_to_kmh(60))
+"""
