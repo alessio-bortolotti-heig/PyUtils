@@ -28,7 +28,7 @@ To install the modules and scripts in PyUtils, follow these steps:
    ```
 4. Install the necessary dependencies:
    ```
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 Once the installation is complete, you are ready to use the tools available in PyUtils.
