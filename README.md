@@ -38,13 +38,13 @@ Once the installation is complete, you are ready to use the tools available in P
 Below is a list of the mini-modules and scripts included in PyUtils, with a brief description for each:
 
 ### MolecularMassCalculator.py
-Description...
+This Python program calculates the molecular mass of chemical compounds. It maps elements to atomic masses, splits molecular formulas into individual elements with multipliers, and sums the atomic masses to find the total molecular mass. Users can input a formula (e.g., Penicillin G) to get its molar mass.
 
 ### EpidemicsMetrics.py
-Description...
+This Python script calculates epidemiological metrics: the Basic Reproduction Number (R0) and the Herd Immunity Threshold (HIT). R0 represents the average number of cases one infected person generates, while HIT indicates the fraction of the population that needs immunity to halt the epidemic's spread.
 
 ### Radioactivity.py
-Description...
+This Python code defines a model for radioactive isotopes and a converter to calculate radiation-related measurements. It includes functions for converting decay energy to joules, calculating absorbed dose in gray, and determining dose equivalent in sievert, based on activity level, distance, and other factors for a specific isotope.
 
 ### UnitConverter.py
 Description...
