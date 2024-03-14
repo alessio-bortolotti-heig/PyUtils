@@ -1,5 +1,5 @@
 
-# PyUtils [Under construction]
+# PyUtils
 
 PyUtils is a versatile collection of tools and utilities in Python, designed to simplify tasks. This repository hosts a series of mini-modules and scripts, each focused on a specific area of utility.
 
@@ -47,4 +47,4 @@ This Python script calculates epidemiological metrics: the Basic Reproduction Nu
 This Python code defines a model for radioactive isotopes and a converter to calculate radiation-related measurements. It includes functions for converting decay energy to joules, calculating absorbed dose in gray, and determining dose equivalent in sievert, based on activity level, distance, and other factors for a specific isotope.
 
 ### UnitConverter.py
-Description...
+This Python program defines a `UnitConverter` class to perform unit conversions across different measurement categories, including length, temperature, volume, mass, pressure, and speed. It offers methods for converting between commonly used units, such as meters to feet, Celsius to Fahrenheit, and liters to gallons.
