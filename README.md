@@ -51,3 +51,6 @@ This Python program defines a `UnitConverter` class to perform unit conversions 
 
 ### toolkitRF.py
 This Python module offers a comprehensive set of tools for analyzing and designing radio frequency (RF) communication systems. It includes functions for calculating wavelength, path loss, antenna gains, link budgets, and more, aiding in the effective planning and optimization of wireless communication links.
+
+### morse.py
+This Python module efficiently converts text to Morse code and Morse code to text. It includes straightforward functions for both encoding and decoding, enhancing learning and communication in Morse code. The user-friendly interface allows easy switching between functions, making it ideal for educators, amateur radio enthusiasts, and Morse code learners.
